@@ -1,0 +1,33 @@
+<resources>
+    <!-- Custom Text Appearance -->
+    <style name="CustomTextAppearance">
+        <!-- Define text size -->
+        <item name="android:textSize">18sp</item>
+        <!-- Define text color -->
+        <item name="android:textColor">#000000</item>
+        <!-- Define custom font -->
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <!-- Default App Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Apply custom text appearance to medium -->
+        <item name="textAppearanceBody1">@style/CustomTextAppearance</item>
+    </style>
+
+    <!-- Optional: You can also define the default TextAppearance for other text sizes -->
+    <style name="CustomTextAppearanceLarge">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:fontFamily">@font/</item>
+    </style>
+
+
+
+    <style name="CustomTextAppearanceSmall">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#777777</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+</resources>

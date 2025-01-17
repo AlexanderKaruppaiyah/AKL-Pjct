@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dialog_background"
+    android:gravity="center">
+
+    <!-- Info Image -->
+    <ImageView
+        android:id="@+id/infoImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_video_info"
+        android:contentDescription="Video Info Image"
+        android:layout_gravity="center" />
+
+    <!-- Description Message -->
+    <TextView
+        android:id="@+id/infoMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="The video should show the person’s upper body, face, and hands clearly in the frame."
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+    <!-- Dismiss Button -->
+    <Button
+        android:id="@+id/dismissButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:text="OK" />
+</LinearLayout>
